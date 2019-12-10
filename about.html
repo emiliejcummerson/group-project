@@ -1,49 +1,154 @@
-<html lang="en"
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <title>Student Coach </title>
   <meta charset="utf-8">
-  <title>Student Coach</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+  <div id="logo-img">
+    <span class="img-container"> <!-- Inline parent element -->
+      <img src="img/logo.png" alt="Logo">
+      <style>
+      #logo-img {
+        width: 100%
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: auto;
+      }
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">StudentCoach</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+      </style>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            More
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">StudentCoach</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Fitness</a>
-            <a class="dropdown-item" href="#">Recipes</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Youtube</a>
-          </div>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.youtube.com/results?search_query=student+bloggers" target="_new">YOUTUBE</a></li>
+            <li><a href="https://www.ucas.com/" target="_new">UCAS</a></li
+            <li><a href="https://www.codefirstgirls.org.uk/" target="_new">CODING</a></li>
+          </ul>
         </li>
-
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
-  </nav>
+  </div>
+</nav>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="band" class="container">
+<div id="tour" class="container">
+<div id="contact" class="container">
 
 
 
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="band" class="container">
+<div id="tour" class="container">
+<div id="contact" class="container">
+
+  <!-- First Container -->
+  <div class="container-fluid bg-1 text-center">
+    <h3 class="margin">Who are we??</h3>
+
+
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/emilie.jpeg" alt="Emilie">
+          <p><strong>Emilie</strong></p>
+          <p>I am an Biochemistry student. I enjoy psychology, mountaineering, climbing and sailing in my spare time! </p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/nicole.jpeg" alt="Nicole">
+          <p><strong>Nicole</strong></p>
+          <p>I am a Law student. I enjoy listening to music, watching netflix and playing guitar in my spare time. My favourite genre is R&B/HipHop/Rap and my favourite artist is Kehlani. </p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/dfiza.jpeg" alt="Dfiza">
+          <p><strong>Dfiza</strong></p>
+          <p>I am an MA Politics and International Relations Student. I enjoy playing the piano and listening to the news. My favourite sites are Aljazeera and BBC!</p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
     </div>
-  </nav>
+
+
+
+    <img src="https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg?cs=srgb&dl=academic-adult-architecture-159740.jpg&fm=jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3></h3>
+  </div>
+
+  <div class="container-fluid bg-3 text-center">
+    <h3 class="margin">Who are StudentCoach?</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>StudentCoach is founded and edited by Emilie, Nicole and Dfiza. </p>
+      </div>
+      <div class="col-sm-4">
+        <p>e consist of 3 students from code first:girls and we are learning our level 1 front end code on web development at Keele University.</p>
+        <img src="img/group.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4">
+        <p>Check out our website for some excellent tips! </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Second Container -->
+  <div class="container-fluid bg-2 text-center">
+    <h3 class="margin">What is StudentCoach?</h3>
+    <p>StudentCoach is a student led and run website, which aims to post content related to university life. It aims to help young students by way of written articles created by students! </p>
+    <a href="#" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </a>
+  </div>
+
+  <!-- Third Container (Grid) -->
+
+
+  <!-- Footer -->
+
+
+  </body>
+  </html>
